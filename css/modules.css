@@ -97,10 +97,6 @@ svg.img-flex {
   height: 100%;
 }
 
-.list-group > dd {
-  margin-left: 0;
-}
-
 .list-group-inline::before,
 .list-group-inline::after,
 .list-group--inline::before,
