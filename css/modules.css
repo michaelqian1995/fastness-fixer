@@ -97,14 +97,6 @@ svg.img-flex {
   height: 100%;
 }
 
-.image-replacement, .ir {
-  overflow: hidden;
-  direction: ltr;
-  text-align: left;
-  text-indent: 100%;
-  white-space: nowrap;
-}
-
 .list-group, .list-group-inline, .list-group--inline {
   padding-left: 0;
   list-style-type: none;
@@ -153,52 +145,8 @@ svg.img-flex {
   width: 100%;
 }
 
-.embed-1by1, .embed--1by1 {
-  padding-top: 100%; /* Square */
-}
-
-.embed-4by3, .embed--4by3 {
-  padding-top: 75%; /* Traditional TV/computer screens */
-}
-
-.embed-iso216, .embed--iso216 {
-  padding-top: 70.92%; /* A-standard paper sizes */
-}
-
 .embed-3by2, .embed--3by2 {
   padding-top: 66.6%; /* Classic 35 mm film & most digital photos, landscape */
-}
-
-.embed-2by3, .embed--2by3 {
-  padding-top: 150%; /* Classic 35 mm film & most digital photos, portrait */
-}
-
-.embed-golden, .embed--golden {
-  padding-top: 61.8%; /* The Golden Ratio */
-}
-
-.embed-16by9, .embed--16by9 {
-  padding-top: 56.25%; /* HD TV */
-}
-
-.embed-185by100, .embed--185by100 {
-  padding-top: 54.05%; /* Common widescreen cinema */
-}
-
-.embed-24by10, .embed--24by10 {
-  padding-top: 41.667%; /* Widescreen cinema: 2.4:1 */
-}
-
-.embed-3by1, .embed--3by1 {
-  padding-top: 33.3333%; /* Panorama photos */
-}
-
-.embed-4by1, .embed--4by1 {
-  padding-top: 25%; /* Polyvision */
-}
-
-.embed-5by1, .embed--5by1 {
-  padding-top: 20%; /* Really wide... */
 }
 
 .embed-item, .embed__item {
@@ -207,27 +155,6 @@ svg.img-flex {
   position: absolute;
   top: 0;
   width: 100%;
-}
-
-.media {
-  overflow: hidden;
-}
-
-.media-img, .media__img {
-  float: left;
-}
-
-.media-img-reversed, .media__img--reversed {
-  float: right;
-}
-
-.media-img-stacked, .media__img--stacked {
-  float: none;
-}
-
-.media-body, .media__body {
-  overflow: hidden;
-  min-width: 12em; /* Slightly less than 200px, responsiveness built in */
 }
 
 .icon {
